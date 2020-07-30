@@ -1,4 +1,4 @@
-/* @keyframes gradientBG {
+@keyframes gradientBG {
     0% {
         background-position: 0% 50%;
     }
@@ -8,28 +8,23 @@
     100% {
         background-position: 0% 50%;
     }
-} */
-
-/* #web_bg {
-  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
-} */
-
-#web_bg{
-    background-image: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg");
-    /* background-size: 400% 400%;
-    animation: gradientBG 30s ease infinite; */
 }
 
-#banner {
+#web_bg {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-size: 400% 400%;
+  animation: gradientBG 1s ease infinite;
+}
+
+
+/* #banner {
   background-color: rgba(0, 0, 0, 0);
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
 }
 #banner:before {
     background-color: rgba(0, 0, 0, 0);
-}
+} */
 
 #footer {
   background-color: rgba(0, 0, 0, 0);
