@@ -1,0 +1,196 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>freelancer | Luhan's portfolio</title><meta name="description" content="我的兼职工作"><meta name="keywords" content="兼职,freelancer,工作"><meta name="author" content="Lu Han,im.luhan@hotmail.com"><meta name="copyright" content="Lu Han"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.jpg"><link rel="canonical" href="https://imluhan.com/2020/06/14/freelancer/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="freelancer"><meta property="og:url" content="https://imluhan.com/2020/06/14/freelancer/"><meta property="og:site_name" content="Luhan's portfolio"><meta property="og:description" content="我的兼职工作"><meta property="og:image" content="https://raw.githubusercontent.com/imluhan/PicBed/master/blog_files/img/PicGo-Github-PicBed/pic08.jpg"><meta property="article:published_time" content="2020-06-14T11:46:12.000Z"><meta property="article:modified_time" content="2020-08-06T14:11:29.547Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2020-08-06 22:11:29'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="/css/background.css"><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Luhan's portfolio" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">4</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">12</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">4</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-list"></i><span> 放轻松</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li></ul></div></div></div></div><div id="body-wrap"><div id="web_bg" data-type="color"></div><div id="sidebar"><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#起源"><span class="toc-text">起源</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#申请"><span class="toc-text">申请</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#正式工作"><span class="toc-text">正式工作</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#接单"><span class="toc-text">接单</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#翻译"><span class="toc-text">翻译</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#报酬"><span class="toc-text">报酬</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#总结"><span class="toc-text">总结</span></a></li></ol></div></div></div><header class="post-bg" id="page-header" style="background-image: url(https://raw.githubusercontent.com/imluhan/PicBed/master/blog_files/img/PicGo-Github-PicBed/pic08.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Luhan's portfolio</a></span><span class="pull-right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-list"></i><span> 放轻松</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">freelancer</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-06-14T11:46:12.000Z" title="发表于 2020-06-14 19:46:12">2020-06-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-08-06T14:11:29.547Z" title="更新于 2020-08-06 22:11:29">2020-08-06</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%B7%A5%E4%BD%9C/">工作</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>&emsp;&emsp;想起来要做这个兼职的原因就是想挣点零花钱，hhh，毕竟辞职在家申博心里慌得不行。然后就百度搜索靠谱的网上兼职，点开了一个知乎问答，看到的第一个回答就把我吸引住了。<br>&emsp;&emsp;知乎链接 <a href="https://www.zhihu.com/question/22404597/answer/373709615" target="_blank" rel="noopener">https://www.zhihu.com/question/22404597/answer/373709615</a><br>&emsp;&emsp;看了答主分享的经验就想自己试试，于是我就开始了自己的兼职笔译之路。</p>
+<h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><p>&emsp;&emsp;在CACTUS官网进行freelance translator的职位申请，首先需要通过它设置的测试，在这之前需要看它当前是否有相应语言翻译的需求，中英翻译应该还是需求比较大的，大多数时间测试是可用的。测试时间为3小时，翻译大约500字的资料。我第一次进行测试的时候并没有非常重视，大概一个小时就提交了测试，结果没通过。。。<br>&emsp;&emsp;第二次测试多花了点时间在这个测试上面，保证达到自己的最佳水平。结果大概半个月之后受到测试通过的邮件，就此开始了我的兼职翻译之路。</p>
+<h3 id="正式工作"><a href="#正式工作" class="headerlink" title="正式工作"></a>正式工作</h3><h4 id="接单"><a href="#接单" class="headerlink" title="接单"></a>接单</h4><p>&emsp;&emsp;翻译的任务是通过邮件发送到自己的邮箱的，邮件会说明任务主题、字符数以及完成的截止日期，如下所示。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">This is a system-generated email. You may contact your respective process managers if you have any queries.</span><br><span class="line"></span><br><span class="line"> Hi HAN,</span><br><span class="line"></span><br><span class="line"> We have a new assignment for you. The details are as follows:</span><br><span class="line"></span><br><span class="line"> Job code: WAGUI_2 (Translate)</span><br><span class="line"> Service: Simplified Chinese to English Translation + Premium Editing</span><br><span class="line"> Process unit count: 7,274 character</span><br><span class="line"> Broad subject area: Electronics and Electrical Engineering</span><br><span class="line"> Specific subject area: Electronics and electrical engineering</span><br><span class="line"> Deadline: Thu, 2 Jan 2020, 08:30 (CST) (in 6 days 20 hrs)</span><br><span class="line"></span><br><span class="line"> To accept this assignment right away, click [here], or to view files and other details before accepting this assignment, go to the [Whiteboard].</span><br><span class="line"></span><br><span class="line"> [Reminder] In keeping with our confidentiality agreement, please delete all jobs and related files from your PCs within 5 days of completing the assignment.</span><br><span class="line"></span><br><span class="line"> Thanks &amp; regards</span><br><span class="line"> Cactus Communications</span><br><span class="line"> 510 Shalimar Morya Park</span><br><span class="line"> Off Link Road, Andheri (W)</span><br><span class="line"> Mumbai 400053</span><br><span class="line"> India</span><br><span class="line"></span><br><span class="line"> W: www.cactusglobal.com</span><br><span class="line"> T: +91 22 6714 8888</span><br><span class="line"> F: +91 22 6714 8889</span><br></pre></td></tr></table></figure>
+
+<p>&emsp;&emsp;一般都会有三到五天的时间给你翻译，有时也会有比较紧急的单子。一般任务会保持可接受状态两个小时，如果迟迟不接受任务，就会被派发给另外的译员了，这时候就无法在接受任务了。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://raw.githubusercontent.com/imluhan/PicBed/master/blog_files/img/PicGo-Github-PicBed/20200129220234.png" alt="接单系统"></p>
+<p>&emsp;&emsp;有一点不太友好的是，这个翻译平台的任务分配原理有些难以理解，有时候大半月都接不到一个单子，但是一旦你接了一个单子，几分钟内就给你派发好几条任务。我自己还是希望能够比较规律性的派发任务，不要涝的涝死旱的旱死。</p>
+<h4 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h4><p>&emsp;&emsp;接下来就是文章的翻译了，翻译其实是一件很枯燥的事情，刚开始的时候就是将文章的段落复制到百度翻译里面先机器翻译一般，然后将有问题的地方进行修改。这样做实际上效率比较低，后来我无意间发现了可以使用CAT (Computer-Aided Translation) 软件提高翻译效率，就开始采用CAT软件进行翻译。我使用的是YiCAT，是一款免费的CAT软件，它的界面如下图所示：</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://raw.githubusercontent.com/imluhan/PicBed/master/blog_files/img/PicGo-Github-PicBed/20200206111846.png" alt="YiCAT"></p>
+<p>&emsp;&emsp;使用方法有点复杂，有些功能我现在还没搞清楚，但是至少用不着总是复制粘贴了，这个软件里面有机器翻译的功能，可以连接到百度翻译、有道翻译等常用的翻译平台。</p>
+<h3 id="报酬"><a href="#报酬" class="headerlink" title="报酬"></a>报酬</h3><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3></div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:im.luhan@hotmail.com">Lu Han</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://imluhan.com/2020/06/14/freelancer/">https://imluhan.com/2020/06/14/freelancer/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://imluhan.com" target="_blank">Luhan's portfolio</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%85%BC%E8%81%8C/">兼职</a><a class="post-meta__tags" href="/tags/freelancer/">freelancer</a><a class="post-meta__tags" href="/tags/%E5%B7%A5%E4%BD%9C/">工作</a></div><div class="post_share"><div class="social-share" data-image="https://raw.githubusercontent.com/imluhan/PicBed/master/blog_files/img/PicGo-Github-PicBed/pic08.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="/img/wechat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="/img/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2020/07/24/%E7%AD%BE%E8%AF%81%E7%94%B3%E8%AF%B7/"><img class="prev-cover" data-lazy-src="https://cdn.jsdelivr.net/gh/imluhan/PicBed/blog_files/img/PicGo-Github-PicBed/20200730000541.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">签证申请</div></div></a></div><div class="next-post pull-right"><a href="/2020/06/14/PhD_Application/"><img class="next-cover" data-lazy-src="https://cdn.jsdelivr.net/gh/imluhan/PicBed/blog_files/img/PicGo-Github-PicBed/20200727203205.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">PhD_Application</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By Lu Han</div><div class="framework-info"><span>框架 </span><a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my blog!</div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    window.valine = new Valine({
+      el: '#vcomment',
+      appId: 'tIfKaxrLDe29Jzwc7dm95hSS-gzGzoHsz',
+      appKey: 'QKK9c6KpDKDJ5uf8qILrOuss',
+      placeholder: '说点什么吧。。。',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: false,
+      path: window.location.pathname,
+    });
+    if ('nick,mail') { valine.config.requiredFields= 'nick,mail'.split(',') }
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else $.getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js', initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) loadComment(document.querySelector('#vcomment'),loadValine)
+  else setTimeout(() => loadValine(), 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script async src="/js/third-party/busuanzi.pure.mini.js"></script></div><div class="aplayer no-destroy" data-id="4906207706" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div><script defer="defer" id="ribbon" src="/js/third-party/canvas-ribbon.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script src="/js/third-party/click_heart.js" async="async"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: [
+    'title',
+    'meta[name=description]',
+    '#config_change',
+    '#body-wrap',
+    '#rightside-config-hide',
+    '#rightside-config-show',
+    '.js-pjax'
+  ],
+  cacheBust: false,
+})
+
+document.addEventListener('pjax:complete', function () {
+  refreshFn()
+
+  $('script[data-pjax]').each(function () {
+    $(this).parent().append($(this).remove())
+  })
+
+  GLOBAL_CONFIG.islazyload && lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  if (typeof gtag === 'function') {
+    gtag('config', '', {'page_path': window.location.pathname});
+  }
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+})
+
+document.addEventListener('pjax:send', function () {
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  $(window).off('scroll')
+
+  //reset readmode
+  $('body').hasClass('read-mode') && $('body').removeClass('read-mode')
+
+  //reset font-size
+  $('body').css('font-size') !== originFontSize && $('body').css('font-size', parseFloat(originFontSize))
+})</script></div></body></html>
