@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://imluhan.com/"/>
-  <updated>2020-08-27T00:26:04.693Z</updated>
+  <updated>2020-09-02T08:33:10.271Z</updated>
   <id>https://imluhan.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Latex学习</title>
+    <link href="https://imluhan.com/2020/09/02/Latex%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://imluhan.com/2020/09/02/Latex%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-09-02T08:22:06.000Z</published>
+    <updated>2020-09-02T08:33:10.271Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Latex学习笔记"><a href="#Latex学习笔记" class="headerlink" title="Latex学习笔记"></a>Latex学习笔记</h2><h3 id="常用语法"><a href="#常用语法" class="headerlink" title="常用语法"></a>常用语法</h3><h4 id="数学公式的使用"><a href="#数学公式的使用" class="headerlink" title="数学公式的使用"></a>数学公式的使用</h4><ul><li>导言区加载amsmath宏包:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\usepackage&#123;amsmath&#125;</span><br></pre></td></tr></table></figure></li><li>行内公式<br>使用<code>$...$</code>插入行内公式。</li><li>行间公式<br>使用<code>\[...\]</code>可以插入行间公式</li><li>有编号公式<br>如果需要对行间公式进行编号，可以使用equation环境： <code>\begin{equaion}...\end{equation}</code></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="https://imluhan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="工具" scheme="https://imluhan.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="论文写作" scheme="https://imluhan.com/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/"/>
+    
+      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>Abaqus学习</title>
@@ -38,11 +68,11 @@
       <category term="学习" scheme="https://imluhan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
+      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
       <category term="软件" scheme="https://imluhan.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="有限元" scheme="https://imluhan.com/tags/%E6%9C%89%E9%99%90%E5%85%83/"/>
-    
-      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
     
   </entry>
   
@@ -81,9 +111,9 @@
     <link href="https://imluhan.com/2020/07/24/%E7%AD%BE%E8%AF%81%E7%94%B3%E8%AF%B7/"/>
     <id>https://imluhan.com/2020/07/24/%E7%AD%BE%E8%AF%81%E7%94%B3%E8%AF%B7/</id>
     <published>2020-07-24T07:56:31.000Z</published>
-    <updated>2020-08-31T02:56:14.973Z</updated>
+    <updated>2020-08-31T12:37:32.922Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="英国签证申请流程及所需材料"><a href="#英国签证申请流程及所需材料" class="headerlink" title="英国签证申请流程及所需材料"></a>英国签证申请流程及所需材料</h2><h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol><li>申请护照</li><li>申请ATAS</li><li>申请CAS号</li><li>肺结核检测</li></ol><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><ol><li>通过GOV.UK申请签证</li><li>支付签证费<br>如要在GOV.UK网站上完成申请，您需要支付签证费。支付签证费之后，您将获得一个以GWF开头的参考编号。请记下此编号，因为修改签证申请或预约时需要用到此编号</li><li>预约<br>在GOV.UK上完成签证申请并支付费用后，您将转至VFS Global网站，在一家签证申请中心预约，以便录取您的生物信息（指纹和照片）。</li><li>上传辅助文件</li><li>前往签证申请中心<br>您必须亲自赴约，前往签证申请中心录取生物信息。</li><li>文件取回<br>在签证申请结果出来之后，您可以前往签证申请中心取回护照。您可以选择亲自前往取回护照，也可请他人代为取回，或通过快递服务收取护照。</li></ol><h3 id="递签"><a href="#递签" class="headerlink" title="递签"></a>递签</h3><p>递签所需文件（CSC申请者）：</p><ul><li>预约信息确认邮件的打印件<br>预约后收到</li><li>有效的护照或旅行证件<br>至少有一页正反面皆为空白</li><li>ATAS（6个月有效期）</li><li>CAS号（6个月有效期）</li><li>CSC英文资助证明原件</li><li>肺结核检测证明原件+复印件（6个月有效期）</li><li>签证申请表打印件</li><li>签证材料清单打印件<br>清单需要在签证中心办公人员的指导下签字。</li></ul><p>地址：武汉签证申请中心 VFS Global Services China Pty Ltd. 湖北省武汉市武昌区中北路171号 汉街总部国际 B栋3902-3903 邮编：430071</p><h3 id="费用"><a href="#费用" class="headerlink" title="费用"></a>费用</h3><ul><li>肺结核检测费用：500元</li><li>签证申请费用：</li><li>医疗保险（IHS）费用：<br>学生一年300英镑</li></ul><h3 id="国际旅行健康证书办理"><a href="#国际旅行健康证书办理" class="headerlink" title="国际旅行健康证书办理"></a>国际旅行健康证书办理</h3><p>需要材料：<br>护照<br>身份证<br>2寸彩色照片<br>注意事项：需要空腹<br>地址：湖北国际旅行卫生保健中心 湖北省武汉市洪山区珞狮路453号<br>联系电话：027-87384283</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="英国签证申请流程及所需材料"><a href="#英国签证申请流程及所需材料" class="headerlink" title="英国签证申请流程及所需材料"></a>英国签证申请流程及所需材料</h2><h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol><li>申请护照</li><li>申请ATAS</li><li>申请CAS号</li><li>肺结核检测</li></ol><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><ol><li>通过GOV.UK申请签证</li><li>支付签证费<br>如要在GOV.UK网站上完成申请，您需要支付签证费。支付签证费之后，您将获得一个以GWF开头的参考编号。请记下此编号，因为修改签证申请或预约时需要用到此编号</li><li>预约<br>在GOV.UK上完成签证申请并支付费用后，您将转至VFS Global网站，在一家签证申请中心预约，以便录取您的生物信息（指纹和照片）。</li><li>上传辅助文件</li><li>前往签证申请中心<br>您必须亲自赴约，前往签证申请中心录取生物信息。</li><li>文件取回<br>在签证申请结果出来之后，您可以前往签证申请中心取回护照。您可以选择亲自前往取回护照，也可请他人代为取回，或通过快递服务收取护照。</li></ol><h3 id="递签"><a href="#递签" class="headerlink" title="递签"></a>递签</h3><p>递签所需文件（CSC申请者）：</p><ul><li>预约信息确认邮件的打印件<br>预约后收到</li><li>有效的护照或旅行证件<br>至少有一页正反面皆为空白</li><li>ATAS（6个月有效期）</li><li>CAS号（6个月有效期）</li><li>CSC英文资助证明原件</li><li>肺结核检测证明原件+复印件（6个月有效期）</li><li>签证申请表打印件</li><li>签证材料清单打印件<br>清单需要在签证中心办公人员的指导下签字。</li></ul><p>地址：武汉签证申请中心 VFS Global Services China Pty Ltd. 湖北省武汉市武昌区中北路171号 汉街总部国际 B栋3902-3903 邮编：430071</p><h3 id="费用"><a href="#费用" class="headerlink" title="费用"></a>费用</h3><ul><li>肺结核检测费用：500元</li><li>签证申请费用：</li><li>医疗保险（IHS）费用：<br>学生一年300英镑</li></ul><h3 id="国际旅行健康证书办理"><a href="#国际旅行健康证书办理" class="headerlink" title="国际旅行健康证书办理"></a>国际旅行健康证书办理</h3><p>需要材料：</p><ul><li>护照</li><li>身份证</li><li>2寸彩色照片<br>注意事项：需要空腹<br>地址：湖北国际旅行卫生保健中心 湖北省武汉市洪山区珞狮路453号<br>联系电话：027-87384283</li></ul>]]></content>
     
     <summary type="html">
     
