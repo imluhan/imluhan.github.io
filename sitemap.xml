@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://imluhan.com/photos/index.html</loc>
+    
+    <lastmod>2020-09-18T02:22:53.864Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://imluhan.com/2020/09/02/Latex%E5%AD%A6%E4%B9%A0/</loc>
     
-    <lastmod>2020-09-02T08:33:10.271Z</lastmod>
+    <lastmod>2020-09-18T01:23:56.690Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>https://imluhan.com/2020/07/24/%E7%AD%BE%E8%AF%81%E7%94%B3%E8%AF%B7/</loc>
     
     <lastmod>2020-08-31T12:37:32.922Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://imluhan.com/photos/index.html</loc>
-    
-    <lastmod>2020-08-30T10:26:29.982Z</lastmod>
     
   </url>
   

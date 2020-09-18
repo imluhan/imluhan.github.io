@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://imluhan.com/"/>
-  <updated>2020-09-02T08:33:10.271Z</updated>
+  <updated>2020-09-18T01:23:56.690Z</updated>
   <id>https://imluhan.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://imluhan.com/2020/09/02/Latex%E5%AD%A6%E4%B9%A0/"/>
     <id>https://imluhan.com/2020/09/02/Latex%E5%AD%A6%E4%B9%A0/</id>
     <published>2020-09-02T08:22:06.000Z</published>
-    <updated>2020-09-02T08:33:10.271Z</updated>
+    <updated>2020-09-18T01:23:56.690Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Latex学习笔记"><a href="#Latex学习笔记" class="headerlink" title="Latex学习笔记"></a>Latex学习笔记</h2><h3 id="常用语法"><a href="#常用语法" class="headerlink" title="常用语法"></a>常用语法</h3><h4 id="数学公式的使用"><a href="#数学公式的使用" class="headerlink" title="数学公式的使用"></a>数学公式的使用</h4><ul><li>导言区加载amsmath宏包:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\usepackage&#123;amsmath&#125;</span><br></pre></td></tr></table></figure></li><li>行内公式<br>使用<code>$...$</code>插入行内公式。</li><li>行间公式<br>使用<code>\[...\]</code>可以插入行间公式</li><li>有编号公式<br>如果需要对行间公式进行编号，可以使用equation环境： <code>\begin{equaion}...\end{equation}</code></li></ul>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Latex学习笔记"><a href="#Latex学习笔记" class="headerlink" title="Latex学习笔记"></a>Latex学习笔记</h2><h3 id="常用语法"><a href="#常用语法" class="headerlink" title="常用语法"></a>常用语法</h3><h4 id="数学公式的使用"><a href="#数学公式的使用" class="headerlink" title="数学公式的使用"></a>数学公式的使用</h4><ul><li>导言区加载amsmath宏包:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\usepackage&#123;amsmath&#125;</span><br></pre></td></tr></table></figure></li><li>行内公式<br>使用<code>$...$</code>插入行内公式。</li><li>行间公式<br>使用<code>\[...\]</code>可以插入行间公式</li><li>有编号公式<br>如果需要对行间公式进行编号，可以使用equation环境： <code>\begin{equaion}...\end{equation}</code></li></ul><h4 id="排版"><a href="#排版" class="headerlink" title="排版"></a>排版</h4><ul><li>换行<br>使用<code>\\</code>或者<code>\par</code>换行</li><li>换页<br>使用<code>\newpage</code>换页</li></ul>]]></content>
     
     <summary type="html">
     
@@ -38,11 +38,11 @@
       <category term="学习" scheme="https://imluhan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
+      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
       <category term="工具" scheme="https://imluhan.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
       <category term="论文写作" scheme="https://imluhan.com/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/"/>
-    
-      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
     
   </entry>
   
@@ -68,11 +68,11 @@
       <category term="学习" scheme="https://imluhan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
-    
       <category term="软件" scheme="https://imluhan.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="有限元" scheme="https://imluhan.com/tags/%E6%9C%89%E9%99%90%E5%85%83/"/>
+    
+      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
     
   </entry>
   
