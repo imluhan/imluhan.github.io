@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://imluhan.com/"/>
-  <updated>2020-10-13T15:03:03.553Z</updated>
+  <updated>2020-10-13T15:08:48.922Z</updated>
   <id>https://imluhan.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>脚本模板</title>
+    <title>Abaqus脚本模板</title>
     <link href="https://imluhan.com/2020/10/13/Abaqus/Abaqus%E8%84%9A%E6%9C%AC%E6%A8%A1%E6%9D%BF/"/>
     <id>https://imluhan.com/2020/10/13/Abaqus/Abaqus%E8%84%9A%E6%9C%AC%E6%A8%A1%E6%9D%BF/</id>
     <published>2020-10-13T14:05:51.000Z</published>
-    <updated>2020-10-13T15:03:03.553Z</updated>
+    <updated>2020-10-13T15:08:48.922Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr /><h2 id="Abaqus脚本模板"><a href="#Abaqus脚本模板" class="headerlink" title="Abaqus脚本模板"></a>Abaqus脚本模板</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">from abaqus import *</span><br><span class="line">from abaqusConstants import *</span><br><span class="line">from caeModules import *</span><br><span class="line"></span><br><span class="line">ropeMdb &#x3D; Mdb(pathName&#x3D;&#39;HangingChain.cae&#39;)</span><br><span class="line"></span><br><span class="line">modelName &#x3D; &#39;TrussModel&#39;</span><br><span class="line">m &#x3D; ropeMdb.Model(name&#x3D;modelName, modelType&#x3D;STANDARD_EXPLICIT)</span><br><span class="line">#Create Part</span><br><span class="line">s &#x3D; m.ConstrainedSketch(name&#x3D;&#39;Truss&#39;, sheetSize&#x3D;200.0)</span><br><span class="line">g, v, d, c &#x3D; s.geometry, s.vertices, s.dimensions, s.constraints</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -81,9 +81,9 @@
     <link href="https://imluhan.com/2020/08/26/Abaqus%E5%AD%A6%E4%B9%A0/"/>
     <id>https://imluhan.com/2020/08/26/Abaqus%E5%AD%A6%E4%B9%A0/</id>
     <published>2020-08-26T13:57:53.000Z</published>
-    <updated>2020-10-13T15:03:00.008Z</updated>
+    <updated>2020-10-13T15:08:36.728Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr /><h2 id="Abaqus学习笔记"><a href="#Abaqus学习笔记" class="headerlink" title="Abaqus学习笔记"></a>Abaqus学习笔记</h2><ol><li><a href="https://www.imluhan.com/2020/10/13/Abaqus/Abaqus脚本模板" target="_blank" rel="noopener">脚本模板</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr /><h2 id="Abaqus学习笔记"><a href="#Abaqus学习笔记" class="headerlink" title="Abaqus学习笔记"></a>Abaqus学习笔记</h2><ol><li><a href="https://www.imluhan.com/2020/10/13/Abaqus/Abaqus脚本模板" target="_blank" rel="noopener">Abaqus脚本模板</a></li></ol>]]></content>
     
     <summary type="html">
     
