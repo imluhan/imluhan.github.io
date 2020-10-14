@@ -68,22 +68,22 @@
       <category term="学习" scheme="https://imluhan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
-    
       <category term="工具" scheme="https://imluhan.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
       <category term="论文写作" scheme="https://imluhan.com/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/"/>
+    
+      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>Abaqus学习</title>
-    <link href="https://imluhan.com/2020/08/26/Abaqus%E5%AD%A6%E4%B9%A0/"/>
-    <id>https://imluhan.com/2020/08/26/Abaqus%E5%AD%A6%E4%B9%A0/</id>
+    <link href="https://imluhan.com/2020/08/26/Abaqus/index/"/>
+    <id>https://imluhan.com/2020/08/26/Abaqus/index/</id>
     <published>2020-08-26T13:57:53.000Z</published>
-    <updated>2020-10-14T08:36:06.427Z</updated>
+    <updated>2020-10-14T08:48:59.961Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr /><h2 id="Abaqus学习笔记"><a href="#Abaqus学习笔记" class="headerlink" title="Abaqus学习笔记"></a>Abaqus学习笔记</h2><ol><li><a href="Abaqus/Abaqus脚本模板.md">Abaqus脚本模板</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr /><h2 id="Abaqus学习笔记"><a href="#Abaqus学习笔记" class="headerlink" title="Abaqus学习笔记"></a>Abaqus学习笔记</h2><ol><li><a href="/Abaqus/Abaqus脚本模板">Abaqus脚本模板</a></li></ol>]]></content>
     
     <summary type="html">
     
@@ -95,11 +95,11 @@
       <category term="学习" scheme="https://imluhan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
+      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
       <category term="软件" scheme="https://imluhan.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="有限元" scheme="https://imluhan.com/tags/%E6%9C%89%E9%99%90%E5%85%83/"/>
-    
-      <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
     
   </entry>
   
