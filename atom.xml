@@ -23,7 +23,7 @@
     <published>2021-03-12T22:09:00.000Z</published>
     <updated>2021-03-12T22:09:00.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="使用Onedrive同步文件夹"><a href="#使用Onedrive同步文件夹" class="headerlink" title="使用Onedrive同步文件夹"></a>使用Onedrive同步文件夹</h3><ul><li>将需要同步的文件夹剪切到电脑的Onedrive文件夹中</li><li>用管理员身份运行cmd，输入以下命令将本地文件夹和Onedrive文件夹建立连接</li></ul><p><strong>Mklink /j “C:\Users\xxx\xxx\xxx” “C:\Users\xxx\OneDrive\xxx\xxx”</strong></p><p>&emsp;&emsp;其中，”C:\Users\xxx\xxx\xxx”为需要同步的本地文件夹路径，”C:\Users\xxx\OneDrive\xxx\xxx”为该文件夹在Onedrive中的路径。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="使用Onedrive同步文件夹"><a href="#使用Onedrive同步文件夹" class="headerlink" title="使用Onedrive同步文件夹"></a>使用Onedrive同步文件夹</h3><ul><li>将需要同步的文件夹剪切到电脑的Onedrive文件夹中</li><li>用管理员身份运行cmd，输入以下命令将本地文件夹和Onedrive文件夹建立连接</li><li><strong>Mklink /j “C:\Users\xxx\xxx\xxx” “C:\Users\xxx\OneDrive\xxx\xxx”</strong></li></ul><p>&emsp;&emsp;其中，”C:\Users\xxx\xxx\xxx”为需要同步的本地文件夹路径，”C:\Users\xxx\OneDrive\xxx\xxx”为该文件夹在Onedrive中的路径。</p>]]></content>
     
     
       
