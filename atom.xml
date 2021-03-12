@@ -23,7 +23,7 @@
     <published>2021-03-12T22:09:00.000Z</published>
     <updated>2021-03-12T22:09:00.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="使用Onedrive同步文件夹"><a href="#使用Onedrive同步文件夹" class="headerlink" title="使用Onedrive同步文件夹"></a>使用Onedrive同步文件夹</h3><ul><li>将需要同步的文件夹剪切到电脑的Onedrive文件夹中</li><li>用管理员身份运行cmd，输入以下命令将本地文件夹和Onedrive文件夹建立连接</li><li><strong>Mklink /j “C:\Users\xxx\xxx\xxx” “C:\Users\xxx\OneDrive\xxx\xxx”</strong></li></ul><p>&emsp;&emsp;其中，”C:\Users\xxx\xxx\xxx”为需要同步的本地文件夹路径，”C:\Users\xxx\OneDrive\xxx\xxx”为该文件夹在Onedrive中的路径。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="使用Onedrive同步文件夹"><a href="#使用Onedrive同步文件夹" class="headerlink" title="使用Onedrive同步文件夹"></a>使用Onedrive同步文件夹</h3><p>&emsp;&emsp;重要的文件保存在本地有时会因为一些意外而丢失，Onedrive的同步功能很好的解决了这个问题，当指定的本地文件夹中的内容发生变动时，Onedrive会实时同步文件夹中的变动，设定步骤如下：</p><ul><li>将需要同步的文件夹剪切到电脑的Onedrive文件夹中</li><li>用管理员身份运行cmd，输入以下命令将本地文件夹和Onedrive文件夹建立连接</li><li><strong>Mklink /j “C:\Users\xxx\xxx\xxx” “C:\Users\xxx\OneDrive\xxx\xxx”</strong></li></ul><p>&emsp;&emsp;其中，”C:\Users\xxx\xxx\xxx”为需要同步的本地文件夹路径，”C:\Users\xxx\OneDrive\xxx\xxx”为该文件夹在Onedrive中的路径。</p>]]></content>
     
     
       
