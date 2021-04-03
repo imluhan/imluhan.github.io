@@ -23,7 +23,7 @@
     <published>2021-04-03T21:34:28.000Z</published>
     <updated>2021-04-03T21:34:28.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="联合使用Obsidian-Zetero-Workflow"><a href="#联合使用Obsidian-Zetero-Workflow" class="headerlink" title="联合使用Obsidian+Zetero Workflow"></a>联合使用Obsidian+Zetero Workflow</h3><h4 id="使用工具"><a href="#使用工具" class="headerlink" title="使用工具"></a>使用工具</h4><ul><li>PDF-Xchange Editor: 文献阅读，段落高亮，添加注释。</li><li>Zetero: 文献管理，PDF笔记提取。</li><li>Obsidian: 笔记管理</li></ul><h2 id="Workflow"><a href="#Workflow" class="headerlink" title="Workflow"></a>Workflow</h2><h4 id="Obsidian部分"><a href="#Obsidian部分" class="headerlink" title="Obsidian部分"></a>Obsidian部分</h4><ul><li>使用Citation插件将Obsidian与从Zetero中导出的文献bib文件进行关联，时其能实时同步Zetero新添加的文献metadata</li><li>使用模板设定每次新创建的文献笔记的格式，如下：</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/imluhan/PicBed/blog_files/img/PicGo-Github-PicBed/20210403224715.png" alt="Obsidian文献笔记模板"></p><h4 id="PDF-Xchange-Editor部分"><a href="#PDF-Xchange-Editor部分" class="headerlink" title="PDF-Xchange Editor部分"></a>PDF-Xchange Editor部分</h4><ul><li>按照Obsidian中文献笔记的主标题对PDF-Xchange Editor中注释工具的颜色名称作相应修改，如下：</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/imluhan/PicBed/blog_files/img/PicGo-Github-PicBed/20210403224847.png" alt="PDF-Xchange Editor注释栏"></p><ul><li>阅读文献并对相应段落按照其不同作用进行高亮标记，根据自己需要添加注释</li></ul><h4 id="Zetero部分"><a href="#Zetero部分" class="headerlink" title="Zetero部分"></a>Zetero部分</h4><ul><li>使用Zotero提取在PDF文件中做的笔记：</li><li>拷贝到Obsidian中并进行整理</li></ul>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="联合使用Obsidian-Zetero-Workflow"><a href="#联合使用Obsidian-Zetero-Workflow" class="headerlink" title="联合使用Obsidian+Zetero Workflow"></a>联合使用Obsidian+Zetero Workflow</h1><h2 id="使用工具"><a href="#使用工具" class="headerlink" title="使用工具"></a>使用工具</h2><ul><li>PDF-Xchange Editor: 文献阅读，段落高亮，添加注释。</li><li>Zetero: 文献管理，PDF笔记提取。</li><li>Obsidian: 笔记管理</li></ul><h2 id="Workflow"><a href="#Workflow" class="headerlink" title="Workflow"></a>Workflow</h2><h4 id="Obsidian部分"><a href="#Obsidian部分" class="headerlink" title="Obsidian部分"></a>Obsidian部分</h4><ul><li>使用Citation插件将Obsidian与从Zetero中导出的文献bib文件进行关联，时其能实时同步Zetero新添加的文献metadata</li><li>使用模板设定每次新创建的文献笔记的格式，如下：</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/imluhan/PicBed/blog_files/img/PicGo-Github-PicBed/20210403224715.png" alt="Obsidian文献笔记模板"></p><h4 id="PDF-Xchange-Editor部分"><a href="#PDF-Xchange-Editor部分" class="headerlink" title="PDF-Xchange Editor部分"></a>PDF-Xchange Editor部分</h4><ul><li>按照Obsidian中文献笔记的主标题对PDF-Xchange Editor中注释工具的颜色名称作相应修改，如下：</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/imluhan/PicBed/blog_files/img/PicGo-Github-PicBed/20210403224847.png" alt="PDF-Xchange Editor注释栏"></p><ul><li>阅读文献并对相应段落按照其不同作用进行高亮标记，根据自己需要添加注释</li></ul><h4 id="Zetero部分"><a href="#Zetero部分" class="headerlink" title="Zetero部分"></a>Zetero部分</h4><ul><li>使用Zotero提取在PDF文件中做的笔记：</li><li>拷贝到Obsidian中并进行整理</li></ul>]]></content>
     
     
       
@@ -217,11 +217,11 @@
     <category term="学习" scheme="https://imluhan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
+    <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
     <category term="工具" scheme="https://imluhan.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
     <category term="论文写作" scheme="https://imluhan.com/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/"/>
-    
-    <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
     
   </entry>
   
