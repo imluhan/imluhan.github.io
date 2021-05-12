@@ -6,7 +6,7 @@
   <link href="https://imluhan.com/atom.xml" rel="self"/>
   
   <link href="https://imluhan.com/"/>
-  <updated>2021-04-03T21:34:28.000Z</updated>
+  <updated>2021-05-11T21:46:03.000Z</updated>
   <id>https://imluhan.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Zotero进行文献管理</title>
+    <link href="https://imluhan.com/2021/05/11/%E4%BD%BF%E7%94%A8Zotero%E8%BF%9B%E8%A1%8C%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86/"/>
+    <id>https://imluhan.com/2021/05/11/%E4%BD%BF%E7%94%A8Zotero%E8%BF%9B%E8%A1%8C%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86/</id>
+    <published>2021-05-11T21:46:03.000Z</published>
+    <updated>2021-05-11T21:46:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>使用Obsidian做文献阅读笔记</title>
@@ -51,7 +71,7 @@
     <published>2021-03-12T22:09:00.000Z</published>
     <updated>2021-03-12T22:09:00.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="使用Onedrive同步文件夹"><a href="#使用Onedrive同步文件夹" class="headerlink" title="使用Onedrive同步文件夹"></a>使用Onedrive同步文件夹</h3><p>&emsp;&emsp;重要的文件保存在本地有时会因为一些意外而丢失，Onedrive的同步功能很好的解决了这个问题，当指定的本地文件夹中的内容发生变动时，Onedrive会实时同步文件夹中的变动，设定步骤如下：</p><ul><li>将需要同步的文件夹剪切到电脑的Onedrive文件夹中</li><li>用管理员身份运行cmd，输入以下命令将本地文件夹和Onedrive文件夹建立连接</li><li><strong>Mklink /j “C:\Users\xxx\xxx\xxx” “C:\Users\xxx\OneDrive\xxx\xxx”</strong></li></ul><p>&emsp;&emsp;其中，”C:\Users\xxx\xxx\xxx”为需要同步的本地文件夹路径，”C:\Users\xxx\OneDrive\xxx\xxx”为该文件夹在Onedrive中的路径。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="使用OneDrive同步文件夹"><a href="#使用OneDrive同步文件夹" class="headerlink" title="使用OneDrive同步文件夹"></a>使用OneDrive同步文件夹</h3><p>重要的文件保存在本地有时会因为一些意外而丢失，Onedrive的同步功能很好的解决了这个问题，当指定的本地文件夹中的内容发生变动时，Onedrive会实时同步文件夹中的变动，</p><p>利用OneDrive实现这种功能有不同的做法。</p><h4 id="快捷方式访问"><a href="#快捷方式访问" class="headerlink" title="快捷方式访问"></a>快捷方式访问</h4><p>可以选择将实际文件夹储存在本地或者OneDrive二者之一，然后在另外一端创建该文件夹的快捷方式并建立两端文件夹的连接。</p><p>例如，将文件夹存放在本地，则使用如下命令（管理员身份运行cmd）在OneDrive上创建快捷方式并建立连接：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Mklink &#x2F;j &quot;C:\Users\xxx\OneDrive\xxx\xxx&quot; &quot;C:\Users\xxx\xxx\xxx&quot;</span><br></pre></td></tr></table></figure><p>其中，”C:\Users\xxx\xxx\xxx”为需要同步的本地文件夹路径，”C:\Users\xxx\OneDrive\xxx\xxx”为该文件夹在Onedrive中的路径。</p><p>这样在本地对文件进行修改后，OneDrive中对应的文件也会自动同步改动。</p><p>另外，也可以选择将实际文件夹放在OneDrive中，而在本地建立相应的快捷方式。这样需要使用的命令则是：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Mklink &#x2F;j &quot;C:\Users\xxx\xxx\xxx&quot; &quot;C:\Users\xxx\OneDrive\xxx\xxx&quot;</span><br></pre></td></tr></table></figure><p>这种做法实际上就是每次都直接对OneDrive中的文件进行改动了。</p>]]></content>
     
     
       
@@ -217,11 +237,11 @@
     <category term="学习" scheme="https://imluhan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
+    <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
     <category term="工具" scheme="https://imluhan.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
     <category term="论文写作" scheme="https://imluhan.com/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/"/>
-    
-    <category term="学术" scheme="https://imluhan.com/tags/%E5%AD%A6%E6%9C%AF/"/>
     
   </entry>
   
